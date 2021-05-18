@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA15DA0B2340C236007AB166 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA15DA0A2340C236007AB166 /* MainViewController.swift */; };
+		CA15DA0D2340C23F007AB166 /* MainViewInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA15DA0C2340C23F007AB166 /* MainViewInteractor.swift */; };
+		CA15DA0F2340C248007AB166 /* MainViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA15DA0E2340C248007AB166 /* MainViewPresenter.swift */; };
+		CA15DA122340CA43007AB166 /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA15DA112340CA43007AB166 /* UIViewExtensions.swift */; };
+		CA15DA142340CAF9007AB166 /* UIColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA15DA132340CAF9007AB166 /* UIColorExtensions.swift */; };
+		CA15DA162340CCF8007AB166 /* UIFontExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA15DA152340CCF8007AB166 /* UIFontExtensions.swift */; };
+		CA15DA182340D28E007AB166 /* CaesarCipherAlgorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA15DA172340D28E007AB166 /* CaesarCipherAlgorithm.swift */; };
+		CA15DA1B2340D2B7007AB166 /* CypherAlgorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA15DA1A2340D2B7007AB166 /* CypherAlgorithm.swift */; };
+		CA15DA242340E79C007AB166 /* MainViewLocalizations.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA15DA232340E79C007AB166 /* MainViewLocalizations.swift */; };
+		CA15DA262340EC57007AB166 /* CypherAlgorithmsConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA15DA252340EC57007AB166 /* CypherAlgorithmsConstants.swift */; };
+		CA15DA282340FDCC007AB166 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA15DA272340FDCC007AB166 /* SceneDelegate.swift */; };
+		CA15DA2A2341004B007AB166 /* MainViewAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA15DA292341004B007AB166 /* MainViewAssembly.swift */; };
+		CA15DA2C234110C3007AB166 /* UIViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA15DA2B234110C3007AB166 /* UIViewControllerExtensions.swift */; };
+		CA15DA2E2341ED82007AB166 /* MainViewControllerConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA15DA2D2341ED82007AB166 /* MainViewControllerConfigurator.swift */; };
+		CA15DA302344958E007AB166 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = CA15DA2F2344958E007AB166 /* Localizable.strings */; };
+		CA48A0C0235C57AD00FFEF67 /* AffineCipherAlgorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA48A0BF235C57AD00FFEF67 /* AffineCipherAlgorithm.swift */; };
+		CA6B39482349E2F90047DF9A /* VigenereCipherAlgorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6B39472349E2F90047DF9A /* VigenereCipherAlgorithm.swift */; };
+		CA6B394A2349EC750047DF9A /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6B39492349EC750047DF9A /* StringExtensions.swift */; };
+		CA6B394C234A2C230047DF9A /* CypherError.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6B394B234A2C230047DF9A /* CypherError.swift */; };
+		CA7A121923DD9ADD00BAD44C /* PlayfairCipherAlgorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7A121823DD9ADD00BAD44C /* PlayfairCipherAlgorithm.swift */; };
+		CABC66832340B3A100CF8A80 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABC66822340B3A100CF8A80 /* AppDelegate.swift */; };
+		CABC668A2340B3A100CF8A80 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CABC66882340B3A100CF8A80 /* Main.storyboard */; };
+		CABC668C2340B3A100CF8A80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CABC668B2340B3A100CF8A80 /* Assets.xcassets */; };
+		CABC668F2340B3A100CF8A80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CABC668D2340B3A100CF8A80 /* LaunchScreen.storyboard */; };
+		ED8AC3984E88E77BDEBAD178 /* Pods_CypherTool.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A5B51546AEBB914F9FE7356 /* Pods_CypherTool.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		32AF985CA7BDF0C99C71955E /* Pods-CypherTool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CypherTool.release.xcconfig"; path = "Target Support Files/Pods-CypherTool/Pods-CypherTool.release.xcconfig"; sourceTree = "<group>"; };
+		7A5B51546AEBB914F9FE7356 /* Pods_CypherTool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CypherTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA15DA0A2340C236007AB166 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		CA15DA0C2340C23F007AB166 /* MainViewInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewInteractor.swift; sourceTree = "<group>"; };
+		CA15DA0E2340C248007AB166 /* MainViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewPresenter.swift; sourceTree = "<group>"; };
+		CA15DA112340CA43007AB166 /* UIViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
+		CA15DA132340CAF9007AB166 /* UIColorExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtensions.swift; sourceTree = "<group>"; };
+		CA15DA152340CCF8007AB166 /* UIFontExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIFontExtensions.swift; sourceTree = "<group>"; };
+		CA15DA172340D28E007AB166 /* CaesarCipherAlgorithm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaesarCipherAlgorithm.swift; sourceTree = "<group>"; };
+		CA15DA1A2340D2B7007AB166 /* CypherAlgorithm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CypherAlgorithm.swift; sourceTree = "<group>"; };
+		CA15DA232340E79C007AB166 /* MainViewLocalizations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewLocalizations.swift; sourceTree = "<group>"; };
+		CA15DA252340EC57007AB166 /* CypherAlgorithmsConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CypherAlgorithmsConstants.swift; sourceTree = "<group>"; };
+		CA15DA272340FDCC007AB166 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CA15DA292341004B007AB166 /* MainViewAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewAssembly.swift; sourceTree = "<group>"; };
+		CA15DA2B234110C3007AB166 /* UIViewControllerExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtensions.swift; sourceTree = "<group>"; };
+		CA15DA2D2341ED82007AB166 /* MainViewControllerConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewControllerConfigurator.swift; sourceTree = "<group>"; };
+		CA15DA2F2344958E007AB166 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		CA48A0BF235C57AD00FFEF67 /* AffineCipherAlgorithm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AffineCipherAlgorithm.swift; sourceTree = "<group>"; };
+		CA6B39472349E2F90047DF9A /* VigenereCipherAlgorithm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VigenereCipherAlgorithm.swift; sourceTree = "<group>"; };
+		CA6B39492349EC750047DF9A /* StringExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
+		CA6B394B234A2C230047DF9A /* CypherError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CypherError.swift; sourceTree = "<group>"; };
+		CA7A121823DD9ADD00BAD44C /* PlayfairCipherAlgorithm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayfairCipherAlgorithm.swift; sourceTree = "<group>"; };
+		CABC667F2340B3A100CF8A80 /* CypherTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CypherTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CABC66822340B3A100CF8A80 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CABC66892340B3A100CF8A80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CABC668B2340B3A100CF8A80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CABC668E2340B3A100CF8A80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CABC66902340B3A100CF8A80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D60ACE7CD3D95FE7388B00ED /* Pods-CypherTool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CypherTool.debug.xcconfig"; path = "Target Support Files/Pods-CypherTool/Pods-CypherTool.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CABC667C2340B3A100CF8A80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED8AC3984E88E77BDEBAD178 /* Pods_CypherTool.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		126F966961D5E287C27B0717 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7A5B51546AEBB914F9FE7356 /* Pods_CypherTool.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4AC9C4D6E1A4F0C5FB313139 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D60ACE7CD3D95FE7388B00ED /* Pods-CypherTool.debug.xcconfig */,
+				32AF985CA7BDF0C99C71955E /* Pods-CypherTool.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CA15DA092340C1BC007AB166 /* Main view */ = {
+			isa = PBXGroup;
+			children = (
+				CA15DA292341004B007AB166 /* MainViewAssembly.swift */,
+				CA15DA0A2340C236007AB166 /* MainViewController.swift */,
+				CA15DA0C2340C23F007AB166 /* MainViewInteractor.swift */,
+				CA15DA0E2340C248007AB166 /* MainViewPresenter.swift */,
+				CA15DA232340E79C007AB166 /* MainViewLocalizations.swift */,
+				CA15DA2D2341ED82007AB166 /* MainViewControllerConfigurator.swift */,
+			);
+			path = "Main view";
+			sourceTree = "<group>";
+		};
+		CA15DA102340C9F6007AB166 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CA15DA112340CA43007AB166 /* UIViewExtensions.swift */,
+				CA15DA132340CAF9007AB166 /* UIColorExtensions.swift */,
+				CA15DA152340CCF8007AB166 /* UIFontExtensions.swift */,
+				CA15DA2B234110C3007AB166 /* UIViewControllerExtensions.swift */,
+				CA6B39492349EC750047DF9A /* StringExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		CA15DA192340D296007AB166 /* Algorithms */ = {
+			isa = PBXGroup;
+			children = (
+				CA647D8623BDE56C008C08F3 /* Playfair */,
+				CA48A0BE235C579B00FFEF67 /* Affine */,
+				CA6B39462349E2CF0047DF9A /* Vigenere */,
+				CA15DA1E2340DB1F007AB166 /* Caesar */,
+				CA15DA1A2340D2B7007AB166 /* CypherAlgorithm.swift */,
+				CA15DA252340EC57007AB166 /* CypherAlgorithmsConstants.swift */,
+				CA6B394B234A2C230047DF9A /* CypherError.swift */,
+			);
+			path = Algorithms;
+			sourceTree = "<group>";
+		};
+		CA15DA1E2340DB1F007AB166 /* Caesar */ = {
+			isa = PBXGroup;
+			children = (
+				CA15DA172340D28E007AB166 /* CaesarCipherAlgorithm.swift */,
+			);
+			path = Caesar;
+			sourceTree = "<group>";
+		};
+		CA48A0BE235C579B00FFEF67 /* Affine */ = {
+			isa = PBXGroup;
+			children = (
+				CA48A0BF235C57AD00FFEF67 /* AffineCipherAlgorithm.swift */,
+			);
+			path = Affine;
+			sourceTree = "<group>";
+		};
+		CA647D8623BDE56C008C08F3 /* Playfair */ = {
+			isa = PBXGroup;
+			children = (
+				CA7A121823DD9ADD00BAD44C /* PlayfairCipherAlgorithm.swift */,
+			);
+			path = Playfair;
+			sourceTree = "<group>";
+		};
+		CA6B39462349E2CF0047DF9A /* Vigenere */ = {
+			isa = PBXGroup;
+			children = (
+				CA6B39472349E2F90047DF9A /* VigenereCipherAlgorithm.swift */,
+			);
+			path = Vigenere;
+			sourceTree = "<group>";
+		};
+		CABC66762340B3A100CF8A80 = {
+			isa = PBXGroup;
+			children = (
+				CABC66812340B3A100CF8A80 /* CypherTool */,
+				CABC66802340B3A100CF8A80 /* Products */,
+				4AC9C4D6E1A4F0C5FB313139 /* Pods */,
+				126F966961D5E287C27B0717 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CABC66802340B3A100CF8A80 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CABC667F2340B3A100CF8A80 /* CypherTool.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CABC66812340B3A100CF8A80 /* CypherTool */ = {
+			isa = PBXGroup;
+			children = (
+				CABC66902340B3A100CF8A80 /* Info.plist */,
+				CABC668D2340B3A100CF8A80 /* LaunchScreen.storyboard */,
+				CABC66882340B3A100CF8A80 /* Main.storyboard */,
+				CABC668B2340B3A100CF8A80 /* Assets.xcassets */,
+				CABC66822340B3A100CF8A80 /* AppDelegate.swift */,
+				CA15DA272340FDCC007AB166 /* SceneDelegate.swift */,
+				CA15DA2F2344958E007AB166 /* Localizable.strings */,
+				CA15DA192340D296007AB166 /* Algorithms */,
+				CA15DA092340C1BC007AB166 /* Main view */,
+				CA15DA102340C9F6007AB166 /* Extensions */,
+			);
+			path = CypherTool;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CABC667E2340B3A100CF8A80 /* CypherTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CABC66932340B3A100CF8A80 /* Build configuration list for PBXNativeTarget "CypherTool" */;
+			buildPhases = (
+				712588C3A08E2887F94C9054 /* [CP] Check Pods Manifest.lock */,
+				CABC667B2340B3A100CF8A80 /* Sources */,
+				CABC667C2340B3A100CF8A80 /* Frameworks */,
+				CABC667D2340B3A100CF8A80 /* Resources */,
+				D88594004DA51478E29077B9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CypherTool;
+			productName = CypherTool;
+			productReference = CABC667F2340B3A100CF8A80 /* CypherTool.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CABC66772340B3A100CF8A80 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Piotr Fraccaro";
+				TargetAttributes = {
+					CABC667E2340B3A100CF8A80 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+				};
+			};
+			buildConfigurationList = CABC667A2340B3A100CF8A80 /* Build configuration list for PBXProject "CypherTool" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CABC66762340B3A100CF8A80;
+			productRefGroup = CABC66802340B3A100CF8A80 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CABC667E2340B3A100CF8A80 /* CypherTool */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CABC667D2340B3A100CF8A80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CABC668F2340B3A100CF8A80 /* LaunchScreen.storyboard in Resources */,
+				CA15DA302344958E007AB166 /* Localizable.strings in Resources */,
+				CABC668C2340B3A100CF8A80 /* Assets.xcassets in Resources */,
+				CABC668A2340B3A100CF8A80 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		712588C3A08E2887F94C9054 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CypherTool-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D88594004DA51478E29077B9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CypherTool/Pods-CypherTool-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CypherTool/Pods-CypherTool-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CypherTool/Pods-CypherTool-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CABC667B2340B3A100CF8A80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA15DA0D2340C23F007AB166 /* MainViewInteractor.swift in Sources */,
+				CA15DA2E2341ED82007AB166 /* MainViewControllerConfigurator.swift in Sources */,
+				CA15DA182340D28E007AB166 /* CaesarCipherAlgorithm.swift in Sources */,
+				CA15DA242340E79C007AB166 /* MainViewLocalizations.swift in Sources */,
+				CA15DA2A2341004B007AB166 /* MainViewAssembly.swift in Sources */,
+				CA15DA1B2340D2B7007AB166 /* CypherAlgorithm.swift in Sources */,
+				CA15DA142340CAF9007AB166 /* UIColorExtensions.swift in Sources */,
+				CA15DA2C234110C3007AB166 /* UIViewControllerExtensions.swift in Sources */,
+				CA15DA0F2340C248007AB166 /* MainViewPresenter.swift in Sources */,
+				CA48A0C0235C57AD00FFEF67 /* AffineCipherAlgorithm.swift in Sources */,
+				CABC66832340B3A100CF8A80 /* AppDelegate.swift in Sources */,
+				CA15DA282340FDCC007AB166 /* SceneDelegate.swift in Sources */,
+				CA15DA122340CA43007AB166 /* UIViewExtensions.swift in Sources */,
+				CA15DA162340CCF8007AB166 /* UIFontExtensions.swift in Sources */,
+				CA7A121923DD9ADD00BAD44C /* PlayfairCipherAlgorithm.swift in Sources */,
+				CA15DA0B2340C236007AB166 /* MainViewController.swift in Sources */,
+				CA15DA262340EC57007AB166 /* CypherAlgorithmsConstants.swift in Sources */,
+				CA6B39482349E2F90047DF9A /* VigenereCipherAlgorithm.swift in Sources */,
+				CA6B394A2349EC750047DF9A /* StringExtensions.swift in Sources */,
+				CA6B394C234A2C230047DF9A /* CypherError.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CABC66882340B3A100CF8A80 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CABC66892340B3A100CF8A80 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CABC668D2340B3A100CF8A80 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CABC668E2340B3A100CF8A80 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CABC66912340B3A100CF8A80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CABC66922340B3A100CF8A80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CABC66942340B3A100CF8A80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D60ACE7CD3D95FE7388B00ED /* Pods-CypherTool.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CK2H346J6A;
+				INFOPLIST_FILE = CypherTool/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pfraccaro.CypherTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CABC66952340B3A100CF8A80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32AF985CA7BDF0C99C71955E /* Pods-CypherTool.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CK2H346J6A;
+				INFOPLIST_FILE = CypherTool/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pfraccaro.CypherTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CABC667A2340B3A100CF8A80 /* Build configuration list for PBXProject "CypherTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CABC66912340B3A100CF8A80 /* Debug */,
+				CABC66922340B3A100CF8A80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CABC66932340B3A100CF8A80 /* Build configuration list for PBXNativeTarget "CypherTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CABC66942340B3A100CF8A80 /* Debug */,
+				CABC66952340B3A100CF8A80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CABC66772340B3A100CF8A80 /* Project object */;
+}

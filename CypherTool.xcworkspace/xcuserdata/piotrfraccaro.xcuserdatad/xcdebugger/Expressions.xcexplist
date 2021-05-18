@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "MainViewInteractor.encrypt(_:):MainViewInteractor.swift">
+      </ContextState>
+      <ContextState
+         contextName = "MainViewController.displaySelectedShift(_:):MainViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "selectAlgorithmButton.titleLabel?.text">
+            </PersistentString>
+            <PersistentString
+               value = "(selectAlgorithmButton.titleLabel?.text ?? &quot;&quot;).appending(shift)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "MainViewController.displayAlgorithmPicker(withTitle:animated:):MainViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "algorithmPickerView.isHidden">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "AffineCipherAlgorithm.decodeLetter(ucs:):AffineCipherAlgorithm.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "value % letterCount">
+            </PersistentString>
+            <PersistentString
+               value = "value % letterCount - keyB">
+            </PersistentString>
+            <PersistentString
+               value = "(Int(pow(Double(keyA), Double(-1)).rounded(.up)) % letterCount)">
+            </PersistentString>
+            <PersistentString
+               value = "keyA.modInv(letterCount)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
